@@ -12,7 +12,9 @@ Create two files in #portfolio/settings/
 - secrets.json
 
 The project use posgresql as the database so you will need to create and provided your username and password.
-In database.py replace the placeholder with your value, put:
+In database.py replace the placeholder with your value,put:
+
+
 DATABASES = {
 		'default':{
         "ENGINE": "django.db.backends.postgresql",
