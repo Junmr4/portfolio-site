@@ -24,8 +24,7 @@ DATABASES = {
         "HOST":"localhost",
         "PORT":"your port number"
 		
-   }
-   
+   }   
 }
 
 
