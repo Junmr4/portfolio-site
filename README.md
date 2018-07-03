@@ -15,6 +15,7 @@ The project use posgresql as the database so you will need to create and provide
 In database.py replace the placeholder with your value,put:
 
 DATABASES = {
+
 		'default':{
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "name of your database",
@@ -22,7 +23,9 @@ DATABASES = {
         "PASSWORD":" your password",
         "HOST":"localhost",
         "PORT":"your port number"
+		
    }
+   
 }
 
 
